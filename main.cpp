@@ -13,6 +13,7 @@ int main() {
             ->create_yes_child(RESULT_IS_REPTILES)->create_no_child(CONDITION_USE_GILLS);
     cold_blood_branch->get_no_child()->create_yes_child(RESULT_IS_FISH)->create_no_child(RESULT_IS_UNKNOWN);
     root->try_match_condition();
+    delete root;
     return 0;
 
 }
