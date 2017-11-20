@@ -5,6 +5,6 @@
  * $ cmake ./
  * $ make
  * $ ./AnimalDecisionTree
- * ---
+---
 ## The decision tree of the program
 
