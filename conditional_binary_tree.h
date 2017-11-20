@@ -38,15 +38,21 @@ public:
     //set the condition for this node and returns this node itself
     conditional_binary_tree *set_condition(const char *condition);
 
-    //create a child on the yes path and return it
-    conditional_binary_tree *create_yes_child();
+    //create a child on the yes path use the given condition for this node, and return this node itself
+    conditional_binary_tree *create_yes_child(const char *condition);
 
-    //create a child on the no path and return it
-    conditional_binary_tree *create_no_child();
+    //create a child on the no path use the given condition for this node, and return this node itself
+    conditional_binary_tree *create_no_child(const char *condition);
+
+    //get the yes child node
+    conditional_binary_tree *get_yes_child();
+
+    //get the no child node
+    conditional_binary_tree *get_no_child();
 
     //try to ask the user to match condition, returns the child based on yes or no
     //if both yes and no children are no, then output the condition as the result
-    conditional_binary_tree *try_match_condition();
+    void try_match_condition();
 
     //deconstruct the node and its children node
     ~conditional_binary_tree();
