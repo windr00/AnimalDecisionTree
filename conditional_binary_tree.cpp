@@ -2,7 +2,7 @@
 // Created by 冉惟之 on 20/11/2017.
 //
 
-#include <cstdlib>
+#include <cstring>
 #include <iostream>
 #include "conditional_binary_tree.h"
 
