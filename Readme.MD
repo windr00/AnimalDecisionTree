@@ -2,7 +2,7 @@
 ---
 ## Build & Run
  * requires at least cmake 3.5 on Ubuntu 16.04
- * run the following program
+ * run the following commands
  * $ cmake ./
  * $ make
  * $ ./AnimalDecisionTree
