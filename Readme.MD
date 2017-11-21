@@ -7,7 +7,7 @@
  * $ make
  * $ ./AnimalDecisionTree
 ---
-## The decision tree of the program
+## The default decision tree of the program
 ![Default decision tree](https://github.com/windr00/AnimalDecisionTree/raw/master/decision_tree.png)
 
 This tree can be defined by yourself. See the default tree defined in the main.cpp as an example
