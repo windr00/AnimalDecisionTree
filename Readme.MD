@@ -7,4 +7,5 @@
  * $ ./AnimalDecisionTree
 ---
 ## The decision tree of the program
-
+![Default decision tree](https://github.com/windr00/AnimalDecisionTree/raw/master/decision_tree.png)
+This tree can be defined by yourself. See the example in the main.cpp
